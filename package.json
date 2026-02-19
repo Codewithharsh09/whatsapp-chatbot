@@ -4,8 +4,9 @@
   "description": "Production-ready WhatsApp AI Chatbot using Gupshup WhatsApp Business API",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node src/whatsapp-web.app.js",
+    "start:wweb": "node src/whatsapp-web.app.js",
+    "dev": "nodemon src/whatsapp-web.app.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",

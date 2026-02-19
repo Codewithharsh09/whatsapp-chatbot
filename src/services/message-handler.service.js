@@ -65,9 +65,10 @@ class MessageHandlerService {
   /**
    * Process message synchronously
    * @param {Object} messageData - Parsed message data
+   * @param {Function} replyHandler - Optional custom function to handle the reply (e.g., for WhatsApp-Web)
    * @returns {Promise<Object>} - Response object
    */
-  async processMessageSync(messageData) {
+  async processMessageSync(messageData, replyHandler = null) {
     const { from, message, messageType, messageId } = messageData;
 
     logger.info({ from, messageType, messageId }, 'Processing message');
@@ -91,11 +92,16 @@ class MessageHandlerService {
         response = await this.handleTextMessage(message);
     }
 
-    // Send response via WhatsApp
-    await gupshupService.sendTextMessage(from, response);
+    // Send response
+    if (replyHandler && typeof replyHandler === 'function') {
+      await replyHandler(from, response);
+    } else {
+      // Default to Gupshup if no handler provided
+      await gupshupService.sendTextMessage(from, response);
+    }
 
-    // Mark original message as read (if messageId provided)
-    if (messageId) {
+    // Mark original message as read (if messageId provided and using Gupshup)
+    if (messageId && !replyHandler) {
       try {
         await gupshupService.markMessageAsRead(messageId);
       } catch (error) {

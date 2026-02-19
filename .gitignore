@@ -36,3 +36,7 @@ build/
 # Scraped website data
 data/
 !data/.gitkeep
+
+# WhatsApp-Web Session & Cache
+.wwebjs_auth/
+.wwebjs_cache/
