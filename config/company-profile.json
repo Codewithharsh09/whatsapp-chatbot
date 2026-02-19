@@ -1,0 +1,113 @@
+{
+  "companyName": "Your Laundry Service",
+  "description": "Professional laundry and dry cleaning services",
+  "services": [
+    {
+      "name": "Wash & Fold",
+      "description": "Regular laundry service with washing, drying, and folding",
+      "pricing": "Starting at $2.50 per pound"
+    },
+    {
+      "name": "Dry Cleaning",
+      "description": "Professional dry cleaning for delicate and special garments",
+      "pricing": "Starting at $8.00 per item"
+    },
+    {
+      "name": "Ironing",
+      "description": "Professional pressing and ironing service",
+      "pricing": "Starting at $3.00 per item"
+    },
+    {
+      "name": "Express Service",
+      "description": "Same-day or next-day service for urgent needs",
+      "pricing": "Additional 50% premium on base service"
+    },
+    {
+      "name": "Bulk Orders",
+      "description": "Special pricing for large orders (20+ items)",
+      "pricing": "15% discount on total order"
+    }
+  ],
+  "operatingHours": {
+    "monday": "8:00 AM - 7:00 PM",
+    "tuesday": "8:00 AM - 7:00 PM",
+    "wednesday": "8:00 AM - 7:00 PM",
+    "thursday": "8:00 AM - 7:00 PM",
+    "friday": "8:00 AM - 7:00 PM",
+    "saturday": "9:00 AM - 5:00 PM",
+    "sunday": "Closed"
+  },
+  "contactInfo": {
+    "phone": "+1234567890",
+    "email": "info@yourlaundryservice.com",
+    "address": "123 Main Street, City, State 12345"
+  },
+  "pickupDelivery": {
+    "available": true,
+    "areas": [
+      "Downtown",
+      "Midtown",
+      "Uptown",
+      "Suburbs (within 10 miles)"
+    ],
+    "pickupFee": "$5.00 per pickup",
+    "deliveryFee": "$5.00 per delivery",
+    "freeDelivery": "Orders over $50",
+    "scheduling": "Available Monday-Saturday, 8 AM - 6 PM"
+  },
+  "turnaroundTime": {
+    "standard": "2-3 business days",
+    "express": "Same-day or next-day (additional fee)",
+    "rush": "4-6 hours (premium pricing)"
+  },
+  "paymentMethods": [
+    "Cash",
+    "Credit Card",
+    "Debit Card",
+    "Digital Payment (PayPal, Venmo)"
+  ],
+  "specialHandling": {
+    "delicateItems": "Special care for silk, wool, and delicate fabrics",
+    "stainRemoval": "Professional stain removal service available",
+    "alterations": "Basic alterations available (additional fee)"
+  },
+  "faqs": [
+    {
+      "question": "What are your operating hours?",
+      "answer": "We're open Monday-Friday 8 AM - 7 PM, Saturday 9 AM - 5 PM, and closed on Sundays."
+    },
+    {
+      "question": "Do you offer pickup and delivery?",
+      "answer": "Yes! We offer pickup and delivery service for $5 each, or free delivery on orders over $50. Available Monday-Saturday, 8 AM - 6 PM."
+    },
+    {
+      "question": "How long does it take?",
+      "answer": "Standard service takes 2-3 business days. We also offer express (same-day/next-day) and rush (4-6 hours) services for an additional fee."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, credit cards, debit cards, and digital payments like PayPal and Venmo."
+    },
+    {
+      "question": "Do you handle delicate items?",
+      "answer": "Yes, we provide special care for delicate fabrics like silk and wool. Just let us know when you place your order."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We serve Downtown, Midtown, Uptown, and suburbs within 10 miles. Contact us to confirm if your area is covered."
+    }
+  ],
+  "responseGuidelines": {
+    "tone": "friendly, helpful, and professional",
+    "style": "Clear and simple language, avoid jargon",
+    "pricing": "Always provide specific pricing when asked",
+    "booking": "Guide customers through the booking process step by step",
+    "greeting": "Welcome customers warmly and offer assistance"
+  },
+  "disclaimers": {
+    "damage": "We take utmost care with all items, but please inform us of any existing damage before service",
+    "valuables": "Please remove all valuables from pockets before pickup",
+    "specialInstructions": "Please inform us of any special care requirements for your items"
+  }
+}
+
