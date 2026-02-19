@@ -38,6 +38,14 @@ class WhatsAppWebService {
         // Handle QR Code
         this.client.on('qr', (qr) => {
             logger.info('QR Code received, please scan with WhatsApp');
+
+            // Generate a clickable link for cloud logs where ASCII might break
+            const qrImageUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(qr)}`;
+
+            console.log('\n--- SCAN THIS QR CODE ---');
+            console.log('Link: ' + qrImageUrl);
+            console.log('-------------------------\n');
+
             qrcode.generate(qr, { small: true });
         });
 
