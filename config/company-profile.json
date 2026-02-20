@@ -1,21 +1,21 @@
 {
-  "companyName": "Your Laundry Service",
+  "companyName": "Tumble Dry",
   "description": "Professional laundry and dry cleaning services",
   "services": [
     {
       "name": "Wash & Fold",
       "description": "Regular laundry service with washing, drying, and folding",
-      "pricing": "Starting at $2.50 per pound"
+      "pricing": "Starting at ₹210  per pound"
     },
     {
       "name": "Dry Cleaning",
       "description": "Professional dry cleaning for delicate and special garments",
-      "pricing": "Starting at $8.00 per item"
+      "pricing": "Starting at ₹800 per item"
     },
     {
       "name": "Ironing",
       "description": "Professional pressing and ironing service",
-      "pricing": "Starting at $3.00 per item"
+      "pricing": "Starting at ₹300 per item"
     },
     {
       "name": "Express Service",
@@ -50,9 +50,9 @@
       "Uptown",
       "Suburbs (within 10 miles)"
     ],
-    "pickupFee": "$5.00 per pickup",
-    "deliveryFee": "$5.00 per delivery",
-    "freeDelivery": "Orders over $50",
+    "pickupFee": "₹400 per pickup",
+    "deliveryFee": "₹400 per delivery",
+    "freeDelivery": "Orders over ₹4000",
     "scheduling": "Available Monday-Saturday, 8 AM - 6 PM"
   },
   "turnaroundTime": {
@@ -78,7 +78,7 @@
     },
     {
       "question": "Do you offer pickup and delivery?",
-      "answer": "Yes! We offer pickup and delivery service for $5 each, or free delivery on orders over $50. Available Monday-Saturday, 8 AM - 6 PM."
+      "answer": "Yes! We offer pickup and delivery service for ₹500 each, or free delivery on orders over ₹4000. Available Monday-Saturday, 8 AM - 6 PM."
     },
     {
       "question": "How long does it take?",
@@ -110,4 +110,3 @@
     "specialInstructions": "Please inform us of any special care requirements for your items"
   }
 }
-
